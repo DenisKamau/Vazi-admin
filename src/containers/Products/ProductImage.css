@@ -1,0 +1,11 @@
+.image-gallery-slides {
+  display: flex;
+  width: 300px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.image-gallery-slide img {
+  width: 100px;
+  height: 100px;
+}

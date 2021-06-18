@@ -1,0 +1,36 @@
+.upload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 30px;
+}
+
+.upload > h1 {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+}
+
+.uploadForm {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+/* Media Query */
+
+@media (max-width: 675px) {
+  .upload {
+    width: 95%;
+    padding: 0;
+  }
+
+  .uploadForm {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
